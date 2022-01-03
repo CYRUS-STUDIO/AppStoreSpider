@@ -116,6 +116,6 @@ def word_cloud_form_kuchuan_excel(excel: str, output: str, combined: str = None)
 
 if __name__ == '__main__':
     # word_cloud_form_excel('../spider/华为应用商店评论.xlsx')
-    # word_cloud_form_kuchuan_excel('../spider/潮汐_评论详情_20210101-20211231.xls', '潮汐词云2021.html', '潮汐安卓应用商店评论汇总2021.xlsx')
+    word_cloud_form_kuchuan_excel('../spider/潮汐_评论详情_20210101-20211231.xls', '潮汐词云2021.html', '潮汐安卓应用商店评论汇总2021.xlsx')
     # word_cloud_form_kuchuan_excel('../spider/小睡眠_评论详情_20210101-20211231.xls', '小睡眠词云2021.html', '小睡眠安卓应用商店评论汇总2021.xlsx')
     # word_cloud_form_kuchuan_excel('../spider/Now冥想_评论详情_20210101-20211231.xls', 'Now冥想词云2021.html', 'Now冥想安卓应用商店评论汇总2021.xlsx')
